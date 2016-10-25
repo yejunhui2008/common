@@ -1,0 +1,6 @@
+/.classpath
+/.project
+/.settings/*.prefs
+/target/classes/com/yejh/encrypt/*.class
+/target/classes/com/yejh/groovy/*.class
+/target/test-classes/com/yejh/*.class
