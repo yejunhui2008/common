@@ -1,0 +1,27 @@
+workflow:
+  name: ymal文件例子编排
+  execType: 2
+  description: 我是编排描述
+  params: 
+    - name: name1
+      value: value1
+      type: text
+    - name: name2
+      value: 2
+      type: int
+    - name: name3
+      value: passwd3
+      type: passwd
+  nodes:
+    - name: 节点1
+      action:
+        code: code1
+        type: 2
+      params: 我是参数内容
+      isConfirm: true
+    - name: 节点2
+      action:
+        code: code2
+        type: 2
+      params: 我是参数内容
+      isConfirm: true
